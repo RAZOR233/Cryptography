@@ -1,0 +1,9 @@
+a3=3
+a2=1
+a1=1
+a0=2
+b3=0x0b
+b2=0x0d
+b1=9
+b0=0x0e
+print(hex(2*b3^b3),hex(b2^(2*b2)^(a2*b3)),hex(b1^(2*b1)^(a2*b2)^(a1*b3)),hex(b0^(2*b0)^(a2*b1)^(a1*b2)^(a0*b3)),hex((a0*b2)^(a1*b1)^(a2*b0)),hex((a1*b0)^(a0*b1)),hex(a0*b0))
